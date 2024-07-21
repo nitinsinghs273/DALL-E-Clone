@@ -1,10 +1,8 @@
-const dotenv = require("dotenv");
 const app = require("./index");
 const mongoose = require("mongoose");
 
-dotenv.config({ path: "./config.env" });
-
 const Port = process.env.PORT;
+console.log(process.env.OPENAI_API_KEY);
 
 app.get("/", (req, res) => console.log("Hello From DALL-E"));
 

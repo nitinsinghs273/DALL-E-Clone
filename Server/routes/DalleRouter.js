@@ -3,6 +3,9 @@ const DalleController = require("../Controller/DalleController");
 
 const router = express.Router();
 
-router.route("/").get(DalleController.getAll).post(DalleController.PostImage);
+router
+  .route("/image")
+  .get(DalleController.getAll)
+  .post(DalleController.PostImage);
 
 module.exports = router;
