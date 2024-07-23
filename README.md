@@ -47,6 +47,6 @@ DALL-E Clone is a web application that integrates OpenAI's DALL-E API to generat
 {
   "prompt": "A futuristic cityscape"
 }
-Roadmap
+
 ```
 
